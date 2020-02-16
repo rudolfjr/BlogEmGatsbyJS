@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Rudolf Dev`,
     position: 'Programador Fullstack',
-    description: `Um blog sobre minhas experiências no mundo do Javascript`,
+    description: `Um blog sobre minhas experiências no mundo da Programação`,
     author: `@rudolfjr`,
   },
   plugins: [
