@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add styled-media-query
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add gatsby-plugin-transition-link
 
 PATH: 
   C:\Python27\;C:\Python27\Scripts;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;D:\wamp64\bin\php\php7.3.5;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Ruby26-x64\bin;C:\Users\Rudy\AppData\Local\Microsoft\WindowsApps;;C:\Users\Rudy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Rudy\AppData\Roaming\Composer\vendor\bin;C:\Users\Rudy\AppData\Local\Yarn\bin;C:\Users\Rudy\AppData\Roaming\npm
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/onetime/-/onetime-5.1.0.tgzvar(--postColor)0f3c91617fe62bb50189636e99ac8a6df7be5: Request failed "405 Method Not Allowed"
+  Error: https://registry.yarnpkg.com/onetime/-/onetime-5.1.0.tgzvar: Request failed "405 Method Not Allowed"
       at ResponseError.ExtendableBuiltin (C:\Program Files (x86)\Yarn\lib\cli.js:696:66)
       at new ResponseError (C:\Program Files (x86)\Yarn\lib\cli.js:802:124)
       at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:66154:16)
@@ -60,7 +60,8 @@ npm manifest:
       "react-helmet": "^5.2.1",
       "react-instantsearch-dom": "^6.3.0",
       "styled-components": "^5.0.1",
-      "styled-icons": "^9.3.0"
+      "styled-icons": "^9.3.0",
+      "styled-media-query": "^2.1.2"
     },
     "devDependencies": {
       "prettier": "^1.19.1"
@@ -9354,7 +9355,7 @@ Lockfile:
   
   onetime@^5.1.0:
     version "5.1.0"
-    resolved "https://registry.yarnpkg.com/onetime/-/onetime-5.1.0.tgzvar(--postColor)0f3c91617fe62bb50189636e99ac8a6df7be5"
+    resolved "https://registry.yarnpkg.com/onetime/-/onetime-5.1.0.tgzvar#fff0f3c91617fe62bb50189636e99ac8a6df7be5"
     integrity sha512-5NcSkPHhwTVFIQN+TUqXoS5+dlElHXdpAWu9I0HP20YOtIi+aZ0Ct82jdlILDxjLEAWwvm+qj1m6aEtsDVmm6Q==
     dependencies:
       mimic-fn "^2.1.0"
