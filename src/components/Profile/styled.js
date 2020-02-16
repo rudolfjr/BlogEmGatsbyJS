@@ -1,5 +1,6 @@
-import styled from 'styled-components'
-import { Link } from "gatsby"
+import styled from 'styled-components';
+import { Link } from "gatsby";
+import media from 'styled-media-query';
 
 export const ProfileWrapper = styled.section`
   color: var(--texts);
@@ -12,6 +13,11 @@ export const ProfileLink = styled(Link)`
     text-decoration: none;
     transition: color 0.5s;
 
+    ${media.lessThan("large")`
+        display: flex;
+        text-align: left;
+    `}
+
     &:hover{
         color: var(--highlight)
     }
@@ -20,12 +26,22 @@ export const ProfileLink = styled(Link)`
 export const ProfileAuthor = styled.h1`
     font-size: 1.6rem;
     margin: 0.5rem auto 1.5 rem;
+
+    ${media.lessThan("large")`
+        font-size: 1.2rem;
+        margin: 0 0 0 10px;
+    `}
 `;
 
 export const ProfilePosition = styled.small`
     font-size: 1.2rem;
     font-weight: 300;
     display: block;
+
+    ${media.lessThan("large")`
+        font-size: 0.8rem;
+        margin-top: 0.2rem;
+    `}
 `;
 
 export const ProfileDescription = styled.p`
@@ -33,4 +49,8 @@ export const ProfileDescription = styled.p`
     font-weight: 300;
     line-height: 1.4;
     margin-top: 1rem;
+
+    ${media.lessThan("large")`
+        display: none;
+    `}
 `;
