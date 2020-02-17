@@ -8,6 +8,7 @@ module.exports = {
     position: 'Programador Fullstack',
     description: `Um blog sobre minhas experiências no mundo da Programação`,
     author: `@rudolfjr`,
+    siteUrl: `https://rudolf.dev`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
@@ -81,6 +82,7 @@ module.exports = {
         display: `minimal-ui`,
       },
     },
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
